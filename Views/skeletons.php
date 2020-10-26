@@ -1,0 +1,3 @@
+<div class="main"><button onclick="window.location.href='http://localhost:8080/Home/index_info/<?=$index?>'">Return</button><br><br><strong>List skeletons of <?=$liste_s[0]->location;?> :</strong> <br><br><?php for($i=0;$i<count($liste_s);$i++){ echo "<strong>Name : </strong><a class='no_a' href='/Home/skel_info/".$liste_s[$i]->skeleton_id."'><em>".$liste_s[$i]->name."</em></a> <br>";}?>
+<br><br>
+</div>

@@ -1,0 +1,2 @@
+<div class="main"><button onclick="window.location.href='http://localhost:8080/Home/index_info_skeleton/<?=$dino_info[0]->site_id?>'">Return</button><br><br><strong><?=$dino_info[0]->name?> info of <?=$dino_info[0]->location;?> :</strong> <br><br><?php for($i=0;$i<count($dino_info);$i++){ echo "<strong>Depht : </strong><em>".$dino_info[$i]->depht."</em> <br><strong>Position : </strong><em>".$dino_info[$i]->position."</em><br><strong>Image :  </strong><br>".$dino_info[$i]->photo." <br>";}?>
+</div>
