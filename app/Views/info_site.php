@@ -1,0 +1,2 @@
+<div class="main"><button onclick="window.location.href='http://localhost:8080'">Return</button>&emsp;&emsp;<a class="list_link" href="/Home/index_info_note/<?=$note?>">List notes</a>&emsp;&emsp;<a class="list_link" href="/Home/index_info_skeleton/<?=$skeleton?>">List skeletons</a><br><br><br><strong>List managers of <?=$liste[0]->location;?> :</strong> <br><?php foreach($liste as $key){echo "<br>";foreach($key as $keys => $value){echo "<strong>".$keys."</strong> : <em>".$value."</em> <br> ";}}?>
+</div>

@@ -1,0 +1,3 @@
+<div class="main"><button onclick="window.location.href='http://localhost:8080/Home/index_info/<?=$index?>'">Return</button>&emsp;&emsp;<a class="list_link" href="http://localhost:8080/Home/index_post_notes/<?=$index?>">Make a recording</a>&emsp;&emsp;<a class="list_link" href="http://localhost:8080/Home/index_update_notes/<?=$index?>">Update a recording</a>&emsp;&emsp;<a class="list_link" href="http://localhost:8080/Home/index_delete_notes/<?=$index?>">Delete a recording</a><br><br><strong>List notes of <?=$liste_n[0]->location?> :</strong> <br><?php foreach($liste_n as $key){echo "<br>";foreach($key as $keys => $value){echo "<strong>".$keys."</strong> : <em>".$value."</em> <br>";}}?>
+<!-- <?php print_r ($liste_n[0])?> -->
+</div>
